@@ -5,91 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Landing Page</title>
+    <title>Document</title>
 </head>
 <body>
-    <header>
-        <section>
-            <img src="https://landing.zytheme.com/siena/assets/images/logo/logo-dark.png" alt="logo"> 
-        </section>
-        <nav> 
-            <ul>
-                <li> 
-                    <a href="#">Home</a>  
-                </li>
-                <li>
-                    <a href="#">Feature</a>
-                </li>
-                <li>
-                    <a href="#">Reviews</a>
-                </li>
-                <li>
-                    <a href="#">Clients</a>
-                </li>
-                <li>
-                    <a href="#">Signup</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <article>
-        <section>
-            <h1>Engage more users & supercharge your landing conversion rates</h1>
-            <p>Launch your campaign and benefit from our expertise on designing and managing conversion centered landing pages.</p>
-        </section>
-        <section>
-            <h4>Start Your 30-Day Free Trial</h4>
-            <form class="form-co">
+    <div class="container">
+        <header>
+            <section class="logo">
                 <div>
-                    <label>Your name*</label>
-                    <input type="text"/>
+                    <img src="https://landing.zytheme.com/siena/assets/images/logo/logo-dark.png" alt="logo">
                 </div>
-                <div>
-                    <label>Email adress*</label>
-                    <input type="email"/>
-                </div>
-                <div>
-                    <label>Password*</label>
-                    <input type="password"/>
-                </div>
-                <button type="submit">GET FREE TRIAL NOW</button>
-                <p><span>Hurry up, limited time offer</span></p>
-            </form>
-        </section>
-    </article>
-    <article>
-        <div>
-           <h3>We design your landing page to get high convertion rates</h3>            
-        </div>
-        <section>
+            </section>
+            <nav class="navbar"> 
+                <ul>
+                    <li> 
+                        <a href="#">Home</a>  
+                    </li>
+                    <li>
+                        <a href="#">Feature</a>
+                    </li>
+                    <li>
+                        <a href="#">Reviews</a>
+                    </li>
+                    <li>
+                        <a href="#">Clients</a>
+                    </li>
+                    <li>
+                        <a href="#">Signup</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <section class="content-slide1">
+                <h1>Engage more users & supercharge your landing conversion rates</h1>
+                <p>Launch your campaign and benefit from our expertise on designing and managing conversion centered landing pages.</p>
+            </section>
+            <section id="box-trial">
+                <h4>Start Your 30-Day Free Trial</h4>
+                <form class="form-container">
+                    <div class="field-form">
+                        <label>Your name*</label>
+                        <input type="text"class="form-control error">
+                    </div>
+                    <div class="field-form">
+                        <label>Email adress*</label>
+                        <input type="email" class="form-control error"/>
+                    </div>
+                    <div class="field-form">
+                        <label>Password*</label>
+                        <input type="password" class="form-control error"/>
+                    </div>
+                    <button type="submit" class="btn-primary">GET FREE TRIAL NOW</button>
+                    <p class="center"><span>Hurry up, limited time offer</span></p>
+                </form>
+            </section>
+        </article>
+        <div class="cont2">
             <div>
-                <img src="img/champion.svg" alt="champion">
-                <h4>Start your campaign</h4>
-                <p>Highly targeted landing pages will increase your results, and optimization with A/B testing takes you to the next level.</p>
+                <h2 class="second-title">We design your landing page to get <br><br> high convertion rates</h2>            
             </div>
-            <div>
-                <img src="img/team.svg" alt="team">
-                <h4>Engage new users</h4>
-                <p>Higher conversion rates means you get more business from your cur rent traffic and reduce cost per cost per acquisition.</p>
+            <div class="contenedor-2">
+                <section class="logos">
+                        <div class="champion">
+                            <img class= "logo-champion" src="img/champion.svg" alt="champion">
+                            <h4>Start your campaign</h4>
+                            <p class="logo-text">Highly targeted landing pages will increase your results, and optimization with A/B testing takes you to the next level.</p>
+                        </div>
+                        <div class="team">
+                            <img class="logo-team" src="img/team.svg" alt="team">
+                            <h4>Engage new users</h4>
+                            <p class="logo-text">Higher conversion rates means you get more business from your cur rent traffic and reduce cost per cost per acquisition.</p>
+                        </div>
+                        <div class="chart">
+                            <img class="logo-chart" src="img/chart.svg" alt="champion">
+                            <h4>Claim your reward</h4>
+                            <p class="logo-text">Stop wasting money on more traffic. Get more leads on your existing traffic instead. At the end, this improves your ROI significantly.</p>
+                        </div>
+                </section>
             </div>
-            <div>
-                <img src="img/chart.svg" alt="champion">
-                <h4>Claim your reward</h4>
-                <p>Stop wasting money on more traffic. Get more leads on your existing traffic instead. At the end, this improves your ROI significantly.</p>
-            </div>
-        </section>
-        <section>
-            <div>
-                <img src="img/service-1.svg" alt="service-1">
-            </div>
-            <div>
-                <img src="img/bookmark.svg" alt="bookmark">
-                <h4>Build and customize your perfect landing page </h4>
-                <p>This should be used to tell a story and let your users know a little more about your product or service. How can you benefit them? convince them to use your service.</p>
-            </div>
+        </div>    
 
-        </section>
-    </article>
-    
+    </div>   
 </body>
 </html>
